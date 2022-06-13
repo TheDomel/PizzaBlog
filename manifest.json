@@ -1,0 +1,32 @@
+{
+    "theme_color": "#b5916d",
+    "background_color": "#f69435",
+    "display": "browser",
+    "scope": "/",
+    "start_url": "https://thedomel.github.io/PizzaBlog/",
+    "name": "PizzaBlog",
+    "short_name": "WSB",
+    "description": "Pizza Blog - projekt",
+    "icons": [
+        {
+            "src": "manifest/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "manifest/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "manifesticon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "manifest/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
