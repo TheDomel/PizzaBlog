@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    background-image: url('https://cdn.pixabay.com/photo/2022/05/22/15/02/pizza-7213599_960_720.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 10px;
+}
+
+ul.sidenav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(73, 96, 99);
+    position: relative;
+    overflow: auto;   
+    text-align: center;
+    float: none;
+  }
+  
+ul.sidenav li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+   
+ul.sidenav li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+  
+ul.sidenav li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+  
+div.content {
+    margin-left: 25%;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+.pizza {
+  background-color: rgba(116, 85, 0, 0.175);;
+}
+  
+.img {
+    background-image: url('https://cdn.pixabay.com/photo/2018/12/10/23/32/cafe-3868124_960_720.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+}
+.img1 {
+    background-image: url('https://cdn.pixabay.com/photo/2020/06/08/16/49/pizza-5275191_960_720.jpg');
+}
+.img2{
+    background-image: url('https://pyzamadeinpoland.pl/wp-content/uploads/2019/12/new-york-pizza-24.jpg');
+}
+.img3{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/bd/Pizza_%285%29.jpg');
+}
+.img4{
+    background-image: url('https://s3.przepisy.pl/przepisy3ii/img/variants/800x0/pizza-sycylijska.jpg')
+}
+h3 {
+    padding: 20px;
+}
+
+.pizza p {
+    padding: 20px;
+    line-height: 1.5;
+}
+
+footer {
+    padding: 20px 30px;
+    background-color: rgb(73, 96, 99);
+    margin-top: 10px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 1.5;
+
+}
+
+.rectangle {
+  width: 300px;
+  height: 300px;
+  border-radius:20px;
+  border: 5px rgb(73, 96, 99) solid;
+  background-color: white;
+  margin: 20% auto 0;
+}
+
+.rectangle h1 {
+  text-align: center;
+  margin: 10%;
+}
+.rectangle p {
+  text-align: center;
+  padding: 3%;
+  line-height: 1.5;
+}
+.button {
+  text-align: center;
+  padding: 2%;
+  width: 150px;
+  height: 40px;
+  border-radius:20px;
+  border: 5px rgb(73, 96, 99) solid;
+  background-color: rgb(76, 175, 80);
+  margin: 10% auto 0;
+
+}
+.button a {
+  text-decoration: none;
+  color: black;
+}
+
+header1 h1 {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 10%;
+}
+
+header h1 {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.075);
+  line-height: 180vh;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-shadow: 1px 1px 2px white;
+}
+
+
+@media screen and (min-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: row; /*domyślny układ poziomy*/
+        flex-wrap: wrap;
+    }
+
+    .pizza {
+        width: 50%;
+        padding: 20px;
+        background-color: rgba(116, 85, 0, 0.175);
+    }
+
+    ul.sidenav {
+      width: 100%;
+      height: auto;
+      position: fixed;
+    }
+    
+    ul.sidenav li a {
+      float: left;
+      padding: 15px;
+    }
+
+  
+    div.content {margin-left: 0;}
+
+    header h1 {
+      text-align: right;
+      line-height: 150vh;
+      font-size: 60px;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      text-shadow: 1px 1px 2px white;
+    }
+
+    .rectangle {
+      width: 500px;
+      height: 400px;
+      border-radius: 20px;
+      border: 5px rgb(73, 96, 99) solid;
+      background-color: white;
+      margin: 15% auto 0;
+    }
+
+    .rectangle h1 {
+      text-align: center;
+      margin: 10%;
+  }
+    .rectangle p {
+      text-align: center;
+      padding: 10%;
+      line-height: 1.5;
+  }
+    .button {
+      text-align: center;
+      padding: 2%;
+      width: 150px;
+      height: 50px;
+      border-radius:20px;
+      border: 5px rgb(73, 96, 99) solid;
+      background-color: rgb(76, 175, 80);
+      margin: 10% auto 0;
+  
+  }
+    .button a {
+      text-decoration: none;
+      color: black;
+  }
+
+  header1 {
+    background-size: cover;
+    position: absolute;
+    left: 39%;
+    top: 1px;
+    
+  }
+  header1 h1 {
+    text-align: center;
+    margin: 20%;
+    font-size: 40px;
+    background-color: rgba(255, 255, 255, 0);
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+}
+
+@media (min-width: 1400px) {
+    .pizza {
+        width: calc(100%/4);
+        padding: 20px;
+        background-color: rgba(116, 85, 0, 0.175);
+    }
+    
+}
